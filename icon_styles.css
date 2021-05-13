@@ -1,0 +1,23 @@
+.sm_icon1{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: maroon;
+    position: fixed;
+    right: 30%;
+    top: 3.5%;
+}
+
+.sm_icon2{
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: maroon;
+    position: fixed;
+    right: 25%;
+    top: 3.5%;
+}
+
+.sm_icon3{
+    position: fixed;
+    right: 10%;
+    top: 2.5%;
+}

@@ -1,0 +1,20 @@
+body {
+    height: 1500px;
+    background-color: gray;
+}
+/* Scroll bar width */
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+/* Scroll bar track */
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+/* Scroll bar handle */
+body::-webkit-scrollbar-thumb {
+    background-color: maroon;
+    border-radius: 10px;
+
+}

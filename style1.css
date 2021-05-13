@@ -1,0 +1,127 @@
+/* Css Stands for Cascading Style Sheet */
+/* <!-- Include a -webkit- prefix if browser does not support animations --> */
+
+
+.navbar1{
+    border: 10px solid maroon;
+    border-right-color: black;
+    border-left-color: black;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    width: 1320px;
+    height: 50px;
+}
+
+.header1{
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.rect1{
+
+    border: 10px solid maroon;
+    border-radius: 30%;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 51.5%;
+    top: 35%;
+}
+
+.rect2{
+
+    border: 10px solid maroon;
+    border-right-color: solid black;
+    border-radius: 30%;
+    width: 220px;
+    height: 100px;
+    position: absolute;
+    right: 33%;
+    top: 35%;
+}
+
+.rect3{
+
+    border: 10px solid maroon;
+    background-color: black;
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    right: 26%;
+    top: 62%
+}
+
+.rect4{
+
+    border: 10px solid maroon;
+    background-color: black;
+    width: 200px;
+    height: 1000px;
+    position: absolute;
+    right: 3%;
+    top: 20%
+}
+
+.rect5{
+    
+    border: 10px solid maroon;
+    background-color: solid black;
+    width: 180px;
+    height: 1000px;
+    position: absolute;
+    right: 83%;
+    top: 18%
+}
+
+.rect6{
+
+    border: 10px solid maroon;
+    background-color: black;
+    width: 650px;
+    height: 800px;
+    position: absolute;
+    right: 26%;
+    top: 100%
+
+}
+.black_circle {
+    border: 20px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    right: 42%;
+}
+
+.loader {
+
+    border: 8px solid black;
+    border-radius: 51%;
+    border-top: 8px solid maroon;
+    border-bottom: 8px solid maroon;
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 26%;
+    right: 42.5%;
+    animation: spin 2s linear infinite;
+     }
+
+@keyframes spin{
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    }
+
+.red_hydra{
+    position: absolute;
+    top: 25.5%;
+    right: 43.5%;
+}
+
+
